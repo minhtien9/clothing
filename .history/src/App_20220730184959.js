@@ -1,3 +1,4 @@
+import CategoryItem from "./components/category-item/CategoryItem";
 import Directory from "./components/directory/Directory";
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
             imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
         },
     ];
-    return <Directory categories={categories} />;
+    return (
+       <Directory categories={categories/>
+    );
 }
 
 export default App;

@@ -1,3 +1,4 @@
+import CategoryItem from "./components/category-item/CategoryItem";
 import Directory from "./components/directory/Directory";
 
 function App() {
