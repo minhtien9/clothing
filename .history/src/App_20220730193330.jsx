@@ -1,0 +1,8 @@
+import Directory from "./components/directory/Directory";
+import Home from "./routes/Home/Home";
+
+function App() {
+    return <Home />;
+}
+
+export default App;
